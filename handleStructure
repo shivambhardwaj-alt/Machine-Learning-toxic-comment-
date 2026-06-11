@@ -1,0 +1,50 @@
+project/
+│
+├── venv/                  
+│
+├── data/
+│   ├── raw/
+│   ├── processed/
+│   └── external/
+│
+├── notebooks/
+│   ├── exploration.ipynb
+│   └── experiments.ipynb
+│
+├── src/
+│   ├── __init__.py
+│   │
+│   ├── datasets/
+│   │   ├── __init__.py
+│   │   └── cifar100.py
+│   │
+│   ├── models/
+│   │   ├── __init__.py
+│   │   ├── resnet.py
+│   │   └── vit.py
+│   │
+│   ├── training/
+│   │   ├── __init__.py
+│   │   ├── train.py
+│   │   └── evaluate.py
+│   │
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   ├── metrics.py
+│   │   └── seed.py
+│   │
+│   └── config.py
+│
+├── checkpoints/
+│   ├── best.pt
+│   └── latest.pt
+│
+├── outputs/
+│   ├── plots/
+│   ├── logs/
+│   └── predictions/
+│
+├── requirements.txt
+├── environment.yml
+├── README.md
+└── main.py
